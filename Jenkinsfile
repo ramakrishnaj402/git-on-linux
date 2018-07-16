@@ -1,6 +1,7 @@
 node {
     stage ('Get code') {
-       git 'https://github.com/ramakrishnaj402/git-on-linux.git'
+       //git 'https://github.com/ramakrishnaj402/git-on-linux.git'
+        checkout 'scm'
     }
     stage ('Run script')
     {
